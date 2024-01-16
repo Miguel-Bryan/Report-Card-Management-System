@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+.sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: gainsboro ;
+    position: fixed;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+}
+  
+li {
+    padding: 10px;
+}
+  
+.dropdown-content {
+    display: none;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
